@@ -22,7 +22,7 @@ public class Item {
 	@NotEmpty
 	private String description;
 
-	private LocalDate dateAcquisition;
+	private LocalDate dataAcquisition;
 
 	public Long getId() {
 		return id;
@@ -49,11 +49,11 @@ public class Item {
 	}
 
 	public LocalDate getDataAcquisition() {
-		return dateAcquisition;
+		return dataAcquisition;
 	}
 
 	public void setDataAcquisition(LocalDate dataAcquisition) {
-		this.dateAcquisition = dataAcquisition;
+		this.dataAcquisition = dataAcquisition;
 	}
 	
 	@Override
