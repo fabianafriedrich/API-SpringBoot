@@ -27,6 +27,7 @@ public class ItemController {
 	private ItemRepository itemRepository;
 
 	@GetMapping 
+	@CrossOrigin(origins = "*")
 	public List<Item> listAll(){
 		return itemRepository.findAll();
 	}
